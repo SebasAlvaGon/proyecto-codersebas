@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElGloton</title>
+</head>
+
+<body>
+    <!--Encabezado-->
+    <h1>El Gloton</h1>
+
+    <!--MENU-->
+    <ul>
+        <li><a href="index.html" title="inicio">Inicio</a> </li>
+        <li><a href="lacarta.html">La carta</a> </li>
+        <li><a href="pedido.html">Haz tu pedido</a> </li>
+    </ul>
+    <hr>
+    <form action="enviar.js">
+        <p>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre">
+        </p>
+        <p>
+            <label for="pedido">Pedido</label>
+            <select name="pedido">
+                <option value="Hamburguesas">Hamburguesas</option>
+                <option value="Pizzas">Pizzas</option>
+                <option value="Empandas">Empandas</option>
+                <option value="salchipapas">salchipapas</option>
+                <option value="Arepas Rellenas">Arepas Rellenas</option>
+            </select>
+        </p>
+        <p>como quieres tu comida:
+            <label><input type="checkbox" id="cbox1" value="first_checkbox"> con salsas</label><br>
+            <input type="checkbox" id="cbox2" value="second_checkbox"> <label for="cbox2">sin salsas</label>
+
+        </p>
+        <fieldset>
+            <label>¿Estas list@ para enviar tu orden?</label>
+            <input type="submit" value="enviar pedido">
+            <label>¿preferes borrar tu pedido?</label>
+            <input type="reset" value="reiniciar">
+        </fieldset>
+    </form>
+
+
+
+
+</body>
+
+</html>

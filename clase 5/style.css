@@ -1,0 +1,6 @@
+.padre-flex{
+    display: flex;
+   /* flex-direction: column-reverse;*/
+   flex-flow: column wrap;
+   justify-content: flex-end;
+}

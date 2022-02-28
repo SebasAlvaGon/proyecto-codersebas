@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElGloton</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!--Encabezado-->
+    <section class="encabezado">
+        <div class="header">
+            <!--Encabezado-->
+            <a class="header__img">
+                <img src="imagenescoder/glologo.jpg" alt="logo del Gloton">
+            </a>
+            <div class="header__menu">
+                <ul class="menu">
+                    <li><a href="index.html" style="text-decoration: none;">Inicio</a> </li>
+                    <li><a href="lacarta.html" style="text-decoration: none;">La carta</a> </li>
+                    <li><a href="pedido.html" style="text-decoration: none;">Haz tu pedido</a> </li>
+                </ul>
+            </div>
+            <hr>
+        </div>
+    </section>
+
+    <hr>
+    <form action="enviar.js">
+        <p>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre">
+        </p>
+        <p>
+            <label for="pedido">Pedido</label>
+            <select name="pedido">
+                <option value="Hamburguesas">Hamburguesas</option>
+                <option value="Pizzas">Pizzas</option>
+                <option value="Empandas">Empandas</option>
+                <option value="salchipapas">salchipapas</option>
+                <option value="Arepas Rellenas">Arepas Rellenas</option>
+            </select>
+        </p>
+        <p>como quieres tu comida:
+            <label><input type="checkbox" id="cbox1" value="first_checkbox"> con salsas</label><br>
+            <input type="checkbox" id="cbox2" value="second_checkbox"> <label for="cbox2">sin salsas</label>
+
+        </p>
+        <fieldset>
+            <label>¿Estas list@ para enviar tu orden?</label>
+            <input type="submit" value="enviar pedido">
+            <label>¿preferes borrar tu pedido?</label>
+            <input type="reset" value="reiniciar">
+        </fieldset>
+    </form>
+
+
+
+
+</body>
+
+</html>

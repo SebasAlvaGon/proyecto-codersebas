@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(imagenescoder/fondoweb.jpg);
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font: 100px;
+    z-index: auto;
+}
+.encabezado{
+    color: white;
+}
+.header{
+    background-color: rgba(255, 0, 0, 0.87);
+    font-family: cursive;
+    font-size: 30px;
+}
+.header__img img{
+    width: 100%;
+    height: 180px;
+}
+.header__menu{
+    list-style: none;
+    width: 90%;
+    margin: auto;
+    color: white;
+    
+}
+.menu{
+
+    text-align: center;
+    color: white;
+    padding: 0%;
+    display: block;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+    margin: 2px 15px 2px 15px;
+    text-decoration: none;
+    border-radius: 23px;
+    background: #5b0505;
+    box-shadow:  15px 15px 30px #65c1c1c1,6565,
+             -15px -15px 30px #ffffff;
+}
+.menu li:hover{
+    background-color: rgb(243, 237, 237);
+    border-style: outset;
+}
+.container{
+    display: grid;
+   /* grid-template-columns: 100px 150px 200px;
+    grid-template-rows:200px 100px;*/
+    grid-auto-rows: 50px;
+    grid-template-columns: 3fr 1fr 1fr;
+
+}
+.item{
+    border: 3px solid black;
+}
+.container-area{
+    display: grid;
+    gap: 15xp;
+    height: 400px;
+    grid-template-areas: 
+     "header header header"
+     "productos productos publicidad"
+     "productos productos publicidad"
+     "footer footer footer"
+    ;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 1fr;
+}
+
+header, main, aside, footer{
+    border: 3px solid black;
+}
+
+header{
+    grid-area: header;
+}
+main{
+    grid-area: productos;
+}
+aside{
+    grid-area: publicidad;
+} 
+footer{
+    grid-area: footer;
+}
+
