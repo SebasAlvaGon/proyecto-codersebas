@@ -37,6 +37,7 @@ body{
 .cabecera{
     grid-column: 1 / 6;
     display: grid;
+    width: 100vw;
 
     img{
         display: flex;
@@ -46,8 +47,54 @@ body{
 
 }
 
-
 .header__menu{
+    grid-column: 1 / 6;
+    background-color: rgba(248, 211, 1, 0.815);
+    color: white;
+    font-size: 25px;
+    height: 100vh;
+    width: 100vw;
+    /*box-shadow: 0px 0px 2px map-get($map: $palette, $key: tercero );*/
+
+    li{
+        float: left;
+        text-align: center;
+        /*margin: 35px 35px;*/
+        transition: all 300ms;
+
+        a{
+            border-radius: 50px;
+            background: map-get($map: $palette, $key: cuarto);
+            box-shadow:  6px 6px 12px #7d1212,
+                         -6px -6px 12px #a91818;
+            color: $color-primero;       
+            margin: 2px 2px; 
+            
+            &:hover{
+                box-shadow: 0px 0px 5px $color-primero inset;
+            }
+        }
+       
+    }
+}
+@media (min-width: 992px){
+    .header__menu{
+        grid-column: 1 / 6;
+        background-color: rgba(248, 211, 1, 0.815);
+        color: white;
+        font-size: 25px;
+        height: 100vh;
+        width: 100vw;
+
+        li{
+            margin: 30px;
+            transition: all 800ms;
+        }
+    }   
+}
+
+
+/*.header__menu{
     text-decoration: none;
     grid-column: 1 / 6;
     background-color: rgba(248, 211, 1, 0.815);
@@ -63,13 +110,28 @@ body{
         margin: 15px auto;
         width: 100%;
 
+        #navbar-nav{
+            margin: 1px;
+            font-size: 8px;
+
+            #nav-link{
+                margin: 1px;
+                display: flex;
+            }
+        }
+
         li{
             float: left;
             text-align: center;
             margin: 35px 35px;
             transition: all 300ms;
+
+           /* #nav-item{
+                margin: 0px;
+                font-size: 8px;
+            }*/
             
-            a{
+            /*a{
                 border-radius: 50px;
                 background: map-get($map: $palette, $key: cuarto);
                 box-shadow:  6px 6px 12px #7d1212,
@@ -83,28 +145,88 @@ body{
             }
         }
     }    
-}
+}*/
 #contenido{
     grid-column: 1 / 5;
+    background: #333333;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #dd1818, #333333);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #dd1818, #333333); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 5px;
+
+
+    .fomulario_pedido{
+        
+        height: 650px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .form{
+            background: #EF3B36;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #FFFFFF, #EF3B36);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #FFFFFF, #EF3B36); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            padding: 40px;
+            box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            width: 100%;
+            margin: auto;
+
+            h1{
+                text-align: center;
+                font-weight: 700;
+            }
+
+            .grupo{
+                position: relative;
+                margin: 45px;
+
+                input{
+                    background: none;
+                    color: #c6c6c6;
+                    font-size: 18px;
+                    padding: 10px 10px 10px 5px;
+                    /*display: block;*/
+                    width: 100%;
+                    border: none;
+                    border-bottom: 1px solid map-get($map: $palette, $key: cuarto);
+
+                    /*&input:focus{
+                        outline: none;
+                        color: red;
+                    }*/
+                }
+                label{
+                    color: map-get($map: $palette, $key: cuarto );
+                    font-size: 16px;
+                    left: 5px;
+                    top: 10px;
+                    transition: 0.5 ease-in-out all;
+                    pointer-events: none;
+                }
+                
+            }
+        }
+        
+        
+    }
+
+    
     /*background: #eee;*/
 
-    #contenido__2{
+   /* #contenido__2{
         @include ocupaciondentrodecaja($ancho: 0% );
 
         article{
             background: #ccc;
             border: 1px solid #555;
         }
-    }
+    }*/
 }
-#contenido_2{
-    grid-column: 1/5;
+/*input:focus{
+    outline: none;
+    color: red;
+}*/
 
-    #formularrio_contenido{
-        border-style: solid;
-        border-color: red;
-    }
-}
 
 #lateral{
     grid-column: 5 / 5;
