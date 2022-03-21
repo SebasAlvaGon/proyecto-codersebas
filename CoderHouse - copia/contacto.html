@@ -5,7 +5,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="encuentra como contactarte con el encargado del restaurante El Glotón para aclarar tus dudas, decir tus sugerencias en el marco de servicio-cliente del restaurante  ">
+  <meta name="description"
+    content="encuentra como contactarte con el encargado del restaurante El Glotón para aclarar tus dudas, decir tus sugerencias en el marco de servicio-cliente del restaurante  ">
   <meta name="keywords" content="contacto, mensajes, sugerencias, experiencia">
   <title>Contáctenos</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
@@ -24,31 +25,35 @@
       </picture>
     </div>
     <nav class="header__menu">
-      <ul class="menu">
-        <li><a href="index.html" style="text-decoration: none;">Inicio</a> </li>
-        <li><a href="lacarta.html" style="text-decoration: none;">La carta</a> </li>
-        <li><a href="pedido.html" style="text-decoration: none;">Haz tu pedido</a> </li>
-        <li><a href="indicaciones.html" style="text-decoration: none;">Indicaciones</a></li>
-        <li><a href="contacto.html" style="text-decoration: none;">contacto</a></li>
-      </ul>
+      <div class="container-fluid">
+        <nav class=" navbar navbar-expand-lg navbar-light bg-$amarillo-500 border-1 border-bottom border-primary">
+          <div class="container-fluid">
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="menu" class="collapse navbar-collapse">
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html" style="text-decoration: none;">Inicio</a> </li>
+                <li class="nav-item"><a class="nav-link" href="lacarta.html" style="text-decoration: none;">La carta</a> </li>
+                <li class="nav-item"><a class="nav-link" href="pedido.html" style="text-decoration: none;">Haz tu pedido</a> </li>
+                <li class="nav-item"><a class="nav-link" href="indicaciones.html" style="text-decoration: none;">Indicaciones</a></li>
+                <li class="nav-item"><a class="nav-link" href="contacto.html" style="text-decoration: none;">contacto</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
     </nav>
 
     <section id="contenido">
-      <article>
-        articulo1
-      </article>
-      <article>
-        articulo2
-      </article>
-      <article>
-        articulo3
-      </article>
-      <article>
-        articulo4
-      </article>
-      <article>
-        articulo5
-      </article>
+      <form class="contacto_form" action="enviar.js" >
+        <h2>Contacto</h2>
+        <input type="text" name="Nombre" placeholder="Nombre">
+        <input type="text" name="correo" placeholder="Correo">
+        <input type="text" name="telefono" placeholder="Telefono">
+        <textarea name="mensaje" placeholder="Escriba aquí su mensaje"></textarea>
+        <input type="button" value="ENVIAR" id="boton">
+      </form>
     </section>
     <aside id="lateral">
       <picture class="lateral-img">
@@ -79,7 +84,7 @@
             width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
         <div id="info">
-          
+
           <h5>VISITANOS EN</h5>
           <p id="browsers">
             <a href="#">
@@ -117,40 +122,5 @@
     crossorigin="anonymous"></script>
 
 </body>
-.header__menu{
-  text-decoration: none;
-  grid-column: 1 / 6;
-  background-color: rgba(248, 211, 1, 0.815);
-  color: white;
-  font-size: 25px;
-  box-shadow: 0px 0px 2px map-get($map: $palette, $key: tercero );
-  height: 100vh;
-  width: 100%;
 
-  ul{
-      list-style: none;
-      text-decoration: none;
-      margin: 15px auto;
-      width: 100%;
-
-      li{
-          float: left;
-          text-align: center;
-          margin: 35px 35px;
-          transition: all 300ms;
-          
-          a{
-              border-radius: 50px;
-              background: map-get($map: $palette, $key: cuarto);
-              box-shadow:  6px 6px 12px #7d1212,
-                           -6px -6px 12px #a91818;
-              color: $color-primero;       
-              margin: 2px 2px; 
-              
-              &:hover{
-                  box-shadow: 0px 0px 5px $color-primero inset;
-              }
-          }
-      }
-  }    
- </html>
+</html>
