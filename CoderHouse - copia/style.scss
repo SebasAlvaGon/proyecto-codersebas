@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 //variables
 $color-primero: black;
 $color-segundo: white;
@@ -37,7 +42,7 @@ body{
 .cabecera{
     grid-column: 1 / 6;
     display: grid;
-    width: 100vw;
+    width: 90vw;
 
     img{
         display: flex;
@@ -49,6 +54,7 @@ body{
 
 .header__menu{
     grid-column: 1 / 6;
+    display: grid;
     background-color: rgba(248, 211, 1, 0.815);
     color: white;
     font-size: 25px;
@@ -57,7 +63,7 @@ body{
     /*box-shadow: 0px 0px 2px map-get($map: $palette, $key: tercero );*/
 
     li{
-        float: left;
+        /*float: left;*/
         text-align: center;
         /*margin: 35px 35px;*/
         transition: all 300ms;
@@ -66,9 +72,9 @@ body{
             border-radius: 50px;
             background: map-get($map: $palette, $key: cuarto);
             box-shadow:  6px 6px 12px #7d1212,
-                         -6px -6px 12px #a91818;
+                        -6px -6px 12px #a91818;
             color: $color-primero;       
-            margin: 2px 2px; 
+            /*margin: 2px 2px; */
             
             &:hover{
                 box-shadow: 0px 0px 5px $color-primero inset;
@@ -97,9 +103,7 @@ body{
 
 #contenido{
     grid-column: 1 / 5;
-    background: #333333;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #dd1818, #333333);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #dd1818, #333333); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: grid;
     border-radius: 5px;
 
 
@@ -169,7 +173,7 @@ body{
         h2{
             text-align: center;
             font-size: 60px;
-            color: rgba(255, 230, 0, 0.932);
+            color: rgba(0, 0, 0, 0.753);
         }
         .mapa{
             
@@ -189,13 +193,13 @@ body{
         }
         h3{
             font-size: 50px;
-            color: rgba(255, 230, 0, 0.932);
+            color: rgba(0, 0, 0, 0.753);
             border-bottom: 10px;
 
         }
         #browsers img{
             border-radius: 20px;
-            width: 20%;
+            width: 15%;
         }
     }
     .contacto_form{
@@ -235,10 +239,11 @@ body{
             padding: 20px;
         }
     }
-    
-
-    
-    
+}
+@media (max-width: 1200px) and (min-width: 768px){
+    #contenido{
+        grid-column: 1/6;
+    }
 }
 /*@media (max-width:480px){
     .contacto_form{
@@ -258,13 +263,19 @@ body{
     grid-column: 5 / 5;
     background: map-get($map: $palette, $key: quinto);
     color: $color-segundo;
-    border-style: dotted dotted solid solid;
-    border-width: 5px 5px 15px 20px;
+    /*border-style: dotted dotted solid solid;
+    border-width: 5px 5px 15px 20px;*/
     border-color: map-get($map: $palette, $key:cuarto);
     height: 60%;
+    width: 50%;
 
     .lateral-img img{
         @include ocupaciondentrodecaja( );
+    }
+}
+@media (max-width: 768px) and (min-width: 400px){
+    #lateral{
+        display: none;
     }
 }
 
@@ -272,10 +283,10 @@ body{
     grid-column: 1 / 6;
     background-color: $color-primero;
     color: $color-segundo;
-    @include ocupaciondentrodecaja( );
+    width: 90%;
     background: $color-primero;
     display: block;
-    /*overflow: hidden;*/
+
 
     ul{
         text-align: left;
