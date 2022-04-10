@@ -31,23 +31,23 @@ body{
 .website{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 28% 15% 50% 10%;
+    //grid-template-rows: 28% 15% 50% 10%;
     /*align-items: ;
     width: 75%;
     height: 100vh;*/
     margin: 0px auto;
-    border: 1px solid #ccc;
+    //border: 1px solid #ccc;
 }
 
 .cabecera{
     grid-column: 1 / 6;
     display: grid;
-    width: 90vw;
+    width: 100%;
 
     img{
         display: flex;
         grid-template-columns: 100%;
-        @include ocupaciondentrodecaja($altura: 79% );
+        @include ocupaciondentrodecaja($altura: 100% );
     }
 
 }
@@ -58,8 +58,9 @@ body{
     background-color: rgba(248, 211, 1, 0.815);
     color: white;
     font-size: 25px;
-    height: 100vh;
-    width: 100vw;
+    //height: 100;
+    //width: 100%;
+    max-width: 100%;
     /*box-shadow: 0px 0px 2px map-get($map: $palette, $key: tercero );*/
 
     li{
@@ -89,8 +90,9 @@ body{
         background-color: rgba(248, 211, 1, 0.815);
         color: white;
         font-size: 25px;
-        height: 100vh;
-        width: 100vw;
+        //height: 100vh;
+        //width: 100vw;
+        max-width: 100%;
 
         li{
             margin: 30px;
@@ -104,12 +106,13 @@ body{
 #contenido{
     grid-column: 1 / 5;
     display: grid;
-    border-radius: 5px;
+    //border-radius: 5px;
 
 
     .fomulario_pedido{
         
-        height: 650px;
+        height: 100%;
+        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -172,8 +175,8 @@ body{
 
         h2{
             text-align: center;
-            font-size: 60px;
-            color: rgba(0, 0, 0, 0.753);
+            font-size: 40px;
+            color: black;
         }
         .mapa{
             
@@ -192,24 +195,25 @@ body{
             }
         }
         h3{
-            font-size: 50px;
-            color: rgba(0, 0, 0, 0.753);
+            font-size: 40px;
+            color: black;
             border-bottom: 10px;
 
         }
         #browsers img{
             border-radius: 20px;
-            width: 15%;
+            width: 5%;
+            margin: 0% 1%;
         }
     }
     .contacto_form{
         width: 70%;
-        height: 100vh;
+        height: 100%;
         margin: 0 auto;
         background: rgba(0,0,0,0.4);
         padding: 10px 20px;
         box-sizing: border-box;
-        margin-top: 20px;
+        //margin-top: 20px;
         border-radius: 7px;
 
         h2{
@@ -242,7 +246,7 @@ body{
 }
 @media (max-width: 1200px) and (min-width: 768px){
     #contenido{
-        grid-column: 1/6;
+        //grid-column: 1/6;
     }
 }
 /*@media (max-width:480px){
@@ -266,8 +270,8 @@ body{
     /*border-style: dotted dotted solid solid;
     border-width: 5px 5px 15px 20px;*/
     border-color: map-get($map: $palette, $key:cuarto);
-    height: 60%;
-    width: 50%;
+    height: 100%;
+    width: 100%;
 
     .lateral-img img{
         @include ocupaciondentrodecaja( );
@@ -283,7 +287,7 @@ body{
     grid-column: 1 / 6;
     background-color: $color-primero;
     color: $color-segundo;
-    width: 90%;
+    width: 100%;
     background: $color-primero;
     display: block;
 
