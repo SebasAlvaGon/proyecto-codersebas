@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:fb="https://www.facebook.com/2008/fbml" xmlns:addthis="https://www.addthis.com/help/api-spec" >
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    	<link rel="pingback" href="https://www.codigosinformaticos.com/xmlrpc.php">
+	    <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v18.2 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>▶ HTML Y CSS: Aprende HTML5 y CSS3 desde cero</title><link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Montserrat%3A400%2C700%7CLato%3A400%2C700%2C300%2C300italic%2C400italic%2C700italic%7CRaleway%3A200%7CCaveat&#038;subset=latin%2Clatin-ext&#038;display=swap" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat%3A400%2C700%7CLato%3A400%2C700%2C300%2C300italic%2C400italic%2C700italic%7CRaleway%3A200%7CCaveat&#038;subset=latin%2Clatin-ext&#038;display=swap" media="print" onload="this.media='all'" /><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat%3A400%2C700%7CLato%3A400%2C700%2C300%2C300italic%2C400italic%2C700italic%7CRaleway%3A200%7CCaveat&#038;subset=latin%2Clatin-ext&#038;display=swap" /></noscript><link rel="stylesheet" href="https://www.codigosinformaticos.com/wp-content/cache/min/1/b4e47297d95ee4e547b50a3e91a27496.css" media="all" data-minify="1" />
+	<meta name="description" content="Al aprender HTML y CSS estás dando el primer paso para ser un desarrollador web o diseñador web profesional y poder crear webs o participar en cualquier..." />
+	<link rel="canonical" href="https://www.codigosinformaticos.com/html-y-css/" />
+	<meta property="og:locale" content="es_ES" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="▶ HTML Y CSS: Aprende HTML5 y CSS3 desde cero" />
+	<meta property="og:description" content="Al aprender HTML y CSS estás dando el primer paso para ser un desarrollador web o diseñador web profesional y poder crear webs o participar en cualquier..." />
+	<meta property="og:url" content="https://www.codigosinformaticos.com/html-y-css/" />
+	<meta property="og:site_name" content="INFORM&Aacute;TICA Y TECNOLOG&Iacute;A" />
+	<meta property="article:published_time" content="2019-04-19T04:07:45+00:00" />
+	<meta property="article:modified_time" content="2019-06-13T03:48:06+00:00" />
+	<meta property="og:image" content="https://www.codigosinformaticos.com/wp-content/uploads/2019/04/html-y-cssb-.jpg" />
+	<meta property="og:image:width" content="640" />
+	<meta property="og:image:height" content="250" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:label1" content="Escrito por" />
+	<meta name="twitter:data1" content="admin" />
+	<meta name="twitter:label2" content="Tiempo de lectura" />
+	<meta name="twitter:data2" content="3 minutos" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.codigosinformaticos.com/#website","url":"https://www.codigosinformaticos.com/","name":"INFORM&Aacute;TICA Y TECNOLOG&Iacute;A","description":"cursos de HTML, Programaci&oacute;n, Seguridad Inform&aacute;tica, Hacking y Tecnolog&iacute;a Actual","publisher":{"@id":"https://www.codigosinformaticos.com/#/schema/person/c95b499266b95786918593d3550ac1fe"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.codigosinformaticos.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"es"},{"@type":"ImageObject","@id":"https://www.codigosinformaticos.com/html-y-css/#primaryimage","inLanguage":"es","url":"https://www.codigosinformaticos.com/wp-content/uploads/2019/04/html-y-cssb-.jpg","contentUrl":"https://www.codigosinformaticos.com/wp-content/uploads/2019/04/html-y-cssb-.jpg","width":640,"height":250,"caption":"html y css"},{"@type":"WebPage","@id":"https://www.codigosinformaticos.com/html-y-css/#webpage","url":"https://www.codigosinformaticos.com/html-y-css/","name":"▶ HTML Y CSS: Aprende HTML5 y CSS3 desde cero","isPartOf":{"@id":"https://www.codigosinformaticos.com/#website"},"primaryImageOfPage":{"@id":"https://www.codigosinformaticos.com/html-y-css/#primaryimage"},"datePublished":"2019-04-19T04:07:45+00:00","dateModified":"2019-06-13T03:48:06+00:00","description":"Al aprender HTML y CSS estás dando el primer paso para ser un desarrollador web o diseñador web profesional y poder crear webs o participar en cualquier...","breadcrumb":{"@id":"https://www.codigosinformaticos.com/html-y-css/#breadcrumb"},"inLanguage":"es","potentialAction":[{"@type":"ReadAction","target":["https://www.codigosinformaticos.com/html-y-css/"]}]},{"@type":"BreadcrumbList","@id":"https://www.codigosinformaticos.com/html-y-css/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Portada","item":"https://www.codigosinformaticos.com/"},{"@type":"ListItem","position":2,"name":"HTML Y CSS"}]},{"@type":"Article","@id":"https://www.codigosinformaticos.com/html-y-css/#article","isPartOf":{"@id":"https://www.codigosinformaticos.com/html-y-css/#webpage"},"author":{"@id":"https://www.codigosinformaticos.com/#/schema/person/c95b499266b95786918593d3550ac1fe"},"headline":"HTML Y CSS","datePublished":"2019-04-19T04:07:45+00:00","dateModified":"2019-06-13T03:48:06+00:00","mainEntityOfPage":{"@id":"https://www.codigosinformaticos.com/html-y-css/#webpage"},"wordCount":424,"commentCount":0,"publisher":{"@id":"https://www.codigosinformaticos.com/#/schema/person/c95b499266b95786918593d3550ac1fe"},"image":{"@id":"https://www.codigosinformaticos.com/html-y-css/#primaryimage"},"thumbnailUrl":"https://www.codigosinformaticos.com/wp-content/uploads/2019/04/html-y-cssb-.jpg","articleSection":["código HTML"],"inLanguage":"es","potentialAction":[{"@type":"CommentAction","name":"Comment","target":["https://www.codigosinformaticos.com/html-y-css/#respond"]}]},{"@type":["Person","Organization"],"@id":"https://www.codigosinformaticos.com/#/schema/person/c95b499266b95786918593d3550ac1fe","name":"admin","image":{"@type":"ImageObject","@id":"https://www.codigosinformaticos.com/#personlogo","inLanguage":"es","url":"https://secure.gravatar.com/avatar/55bb683c3598f91b66c2caa8d8036ac5?s=96&d=mm&r=g","contentUrl":"https://secure.gravatar.com/avatar/55bb683c3598f91b66c2caa8d8036ac5?s=96&d=mm&r=g","caption":"admin"},"logo":{"@id":"https://www.codigosinformaticos.com/#personlogo"}}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="amphtml" href="https://www.codigosinformaticos.com/html-y-css/amp/" /><meta name="generator" content="AMP for WP 1.0.77.36"/><link rel='dns-prefetch' href='//cdn.jsdelivr.net' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="INFORM&Aacute;TICA Y TECNOLOG&Iacute;A &raquo; Feed" href="https://www.codigosinformaticos.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="INFORM&Aacute;TICA Y TECNOLOG&Iacute;A &raquo; Feed de los comentarios" href="https://www.codigosinformaticos.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="INFORM&Aacute;TICA Y TECNOLOG&Iacute;A &raquo; Comentario HTML Y  CSS del feed" href="https://www.codigosinformaticos.com/html-y-css/feed/" />
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	
+
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style id='rocket-lazyload-inline-css' type='text/css'>
+.rll-youtube-player{position:relative;padding-bottom:56.23%;height:0;overflow:hidden;max-width:100%;}.rll-youtube-player iframe{position:absolute;top:0;left:0;width:100%;height:100%;z-index:100;background:0 0}.rll-youtube-player img{bottom:0;display:block;left:0;margin:auto;max-width:100%;width:100%;position:absolute;right:0;top:0;border:none;height:auto;cursor:pointer;-webkit-transition:.4s all;-moz-transition:.4s all;transition:.4s all}.rll-youtube-player img:hover{-webkit-filter:brightness(75%)}.rll-youtube-player .play{height:72px;width:72px;left:50%;top:50%;margin-left:-36px;margin-top:-36px;position:absolute;background:url(https://www.codigosinformaticos.com/wp-content/plugins/wp-rocket/assets/img/youtube.png) no-repeat;cursor:pointer}
+</style>
+<script type='text/javascript' id="nb-jquery" src='https://www.codigosinformaticos.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' data-cfasync='true' id='jquery-core-js' defer></script>
+
+<script type='text/javascript' id='wphb-5-js-extra'>
+/* <![CDATA[ */
+var clientcfmonitor = {"client_ip":"185.37.231.119","clickcount":"1","bannedperiod":"1","preurl":"https:\/\/www.codigosinformaticos.com\/wp-content\/plugins\/cfmonitor\/clickupdate.php","firstclickdate":[[""],[""]],"updatedVisitCount":"0","isblockedcount":"0","customclass":"codigosinformaticos","firstclick":"false","disablead":"false","currentURL":"\/html-y-css\/"};;;var AjaxUpdateClicks = {"ajaxurl":"https:\/\/www.codigosinformaticos.com\/wp-admin\/admin-ajax.php","nonce":"c92367cc35"};;;var AjaxCheckClicks = {"ajaxurl":"https:\/\/www.codigosinformaticos.com\/wp-admin\/admin-ajax.php","nonce":"67aa72a998"};
+/* ]]> */
+</script>
+
+<!--[if lt IE 9]>
+<script type='text/javascript' src='https://www.codigosinformaticos.com/wp-content/themes/kale/assets/js/html5shiv.min.js?ver=3.7.0' data-cfasync='true' id='kale-html5-js'></script>
+<![endif]-->
+<!--[if lt IE 9]>
+<script type='text/javascript' src='https://www.codigosinformaticos.com/wp-content/themes/kale/assets/js/respond.min.js?ver=1.3.0' data-cfasync='true' id='kale-respond-js'></script>
+<![endif]-->
+<link rel="https://api.w.org/" href="https://www.codigosinformaticos.com/wp-json/" /><link rel="alternate" type="application/json" href="https://www.codigosinformaticos.com/wp-json/wp/v2/posts/541" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.codigosinformaticos.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.codigosinformaticos.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.9.1" />
+<link rel='shortlink' href='https://www.codigosinformaticos.com/?p=541' />
+<link rel="alternate" type="application/json+oembed" href="https://www.codigosinformaticos.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.codigosinformaticos.com%2Fhtml-y-css%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.codigosinformaticos.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.codigosinformaticos.com%2Fhtml-y-css%2F&#038;format=xml" />
+
+		<!-- GA Google Analytics @ https://m0n.co/ga -->
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+			ga('create', 'UA-133175971-1', 'auto');
+			ga('send', 'pageview');
+		</script>
+
+	<script type="text/javascript">
+	window._wp_rp_static_base_url = 'https://wprp.sovrn.com/static/';
+	window._wp_rp_wp_ajax_url = "https://www.codigosinformaticos.com/wp-admin/admin-ajax.php";
+	window._wp_rp_plugin_version = '3.6.4';
+	window._wp_rp_post_id = '541';
+	window._wp_rp_num_rel_posts = '4';
+	window._wp_rp_thumbnails = true;
+	window._wp_rp_post_title = 'HTML+Y++CSS';
+	window._wp_rp_post_tags = ['c%C3%B3digo+html', 'de', 'web', 'css', 'lo', 'la', 'en', 'el', 'html', 'como', 'style', 'color', 'es', 'paso', 'cmo', 'al'];
+	window._wp_rp_promoted_content = true;
+</script>
+
+<!-- Analytics by WP-Statistics v13.1.6 - https://wp-statistics.com/ -->
+<script>var WP_Statistics_http = new XMLHttpRequest();WP_Statistics_http.open('GET', 'https://www.codigosinformaticos.com/wp-json/wp-statistics/v2/hit?_=1646321756&_wpnonce=86f33cb9c6&wp_statistics_hit_rest=yes&browser=Desconocido&platform=Desconocida&version=Desconocida&referred=https%3A%2F%2Fwww.codigosinformaticos.com%2Fhtml-y-css%2F&ip=185.37.231.119&exclusion_match=yes&exclusion_reason=CrawlerDetect&ua=WP+Rocket%2FPreload&track_all=1&timestamp=1646321756&current_page_type=post&current_page_id=541&search_query&page_uri=/html-y-css/&user_id=0', true);WP_Statistics_http.setRequestHeader("Content-Type", "application/json;charset=UTF-8");WP_Statistics_http.send(null);</script>
+<style>.frontpage-banner:before, .frontpage-slider .owl-carousel-item:before{background-color:#1e73be;}</style><link rel="icon" href="https://www.codigosinformaticos.com/wp-content/uploads/2019/02/logo1-32x32.gif" sizes="32x32" />
+<link rel="icon" href="https://www.codigosinformaticos.com/wp-content/uploads/2019/02/logo1-192x192.gif" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.codigosinformaticos.com/wp-content/uploads/2019/02/logo1-180x180.gif" />
+<meta name="msapplication-TileImage" content="https://www.codigosinformaticos.com/wp-content/uploads/2019/02/logo1-270x270.gif" />
+<style id="kirki-inline-styles"></style><noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript></head>
+
+<body data-rsssl=1 class="nb-3-1-32 nimble-no-local-data-skp__post_post_541 nimble-no-group-site-tmpl-skp__all_post post-template-default single single-post postid-541 single-format-standard sek-hide-rc-badge">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0.49803921568627" /><feFuncG type="table" tableValues="0 0.49803921568627" /><feFuncB type="table" tableValues="0 0.49803921568627" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-red"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 0.27843137254902" /><feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0" /><feFuncG type="table" tableValues="0 0.64705882352941" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-magenta-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.78039215686275 1" /><feFuncG type="table" tableValues="0 0.94901960784314" /><feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.44705882352941 0.4" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-orange"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.098039215686275 1" /><feFuncG type="table" tableValues="0 0.66274509803922" /><feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><a class="skip-link screen-reader-text" href="#content">
+Saltar al contenido</a>
+
+<div class="main-wrapper">
+    <div class="container">
+
+        <!-- Header -->
+        <header class="header" role="banner">
+
+            
+            <!-- Header Row 2 -->
+            <div class="header-row-2">
+                <div class="logo">
+                    
+												<div class="header-logo-text"><a href="https://www.codigosinformaticos.com/">INFORM&Aacute;TICA Y TECNOLOG&Iacute;A</a></div>
+						
+                                    </div>
+                                <div class="tagline"><p>cursos de HTML, Programaci&oacute;n, Seguridad Inform&aacute;tica, Hacking y Tecnolog&iacute;a Actual</p></div>
+                            </div>
+            <!-- /Header Row 2 -->
+
+
+            <!-- Header Row 3 -->
+            <div class="header-row-3">
+                <nav class="navbar navbar-default" role="navigation" aria-label="Navegación principal">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".header-row-3 .navbar-collapse" aria-expanded="false">
+                        <span class="sr-only">Cambiar modo de navegación</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <!-- Navigation -->
+                    <div class="navbar-collapse collapse"><ul id="menu-menu" class="nav navbar-nav"><li id="menu-item-1312" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1312"><a href="https://www.codigosinformaticos.com/inicio/">Inicio</a></li>
+<li id="menu-item-1313" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1313"><a href="https://www.codigosinformaticos.com/">Blog</a></li>
+<li id="menu-item-1320" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1320 dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">cursos <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu">
+	<li id="menu-item-1321" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1321"><a href="https://www.codigosinformaticos.com/category/curso-por-lenguaje/c/">C#</a></li>
+	<li id="menu-item-1322" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1322"><a href="https://www.codigosinformaticos.com/category/curso-por-lenguaje/sql/">SQL</a></li>
+</ul>
+</li>
+<li id="menu-item-1323" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1323 dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">programación informática <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu">
+	<li id="menu-item-1324" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1324"><a href="https://www.codigosinformaticos.com/category/programacion-informatica/tipos-de-programacion/">tipos de programación</a></li>
+</ul>
+</li>
+<li id="menu-item-1326" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1326"><a href="https://www.codigosinformaticos.com/category/seguridad-informatica/">seguridad informática</a></li>
+<li id="menu-item-1325" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1325"><a href="https://www.codigosinformaticos.com/category/redes-sociales/">redes sociales</a></li>
+<li id="menu-item-1327" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1327"><a href="https://www.codigosinformaticos.com/category/tipos-de-codigos-informaticos/">tipos de códigos</a></li>
+<li id="menu-item-1315" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1315 dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">políticas <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu">
+	<li id="menu-item-1316" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1316"><a href="https://www.codigosinformaticos.com/politica-de-cookies/">políticas de cookies</a></li>
+	<li id="menu-item-1317" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1317"><a href="https://www.codigosinformaticos.com/politica-de-privacidad/">políticas de privacidad</a></li>
+</ul>
+</li>
+<li id="menu-item-1314" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1314"><a href="https://www.codigosinformaticos.com/contacto/">contacto</a></li>
+<li id="menu-item-1318" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1318"><a href="https://www.codigosinformaticos.com/sobre-mi/">Sobre mí</a></li>
+<li class="search">
+        <a href="javascript:;" id="toggle-main_search" data-toggle="dropdown"><i class="fa fa-search"></i></a>
+        <div class="dropdown-menu main_search">
+            <form name="main_search" method="get" action="https://www.codigosinformaticos.com/">
+                <input type="text" name="s" class="form-control" placeholder="Escribe aquí" />
+            </form>
+        </div>
+    </li></ul></div>                    <!-- /Navigation -->
+                </nav>
+            </div>
+            <!-- /Header Row 3 -->
+
+        </header>
+        <!-- /Header -->
+
+
+<a id="content"></a>
+                                          <!-- Two Columns -->
+<div class="row two-columns">
+
+    <!-- Main Column -->
+        <div class="main-column  col-md-8 " role="main">
+        
+        <!-- Post Content -->
+        <div id="post-541" class="entry entry-post post-541 post type-post status-publish format-standard has-post-thumbnail hentry category-codigo-html">
+            
+            <div class="entry-header">
+				                <div class="entry-meta">
+                    <div class="entry-date date updated">abril 19, 2019</div>
+                </div>
+								<div class="clearfix"></div>
+            </div>
+            
+                                    <h1 class="entry-title">HTML Y  CSS</h1>
+                        
+                            <div class="entry-thumb"><img width="640" height="250" src="//www.codigosinformaticos.com/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="https://www.codigosinformaticos.com/wp-content/uploads/2019/04/html-y-cssb-.jpg" class="lazy lazy-hidden img-responsive wp-post-image" alt="HTML Y  CSS" srcset="" data-srcset="https://www.codigosinformaticos.com/wp-content/uploads/2019/04/html-y-cssb-.jpg 640w, https://www.codigosinformaticos.com/wp-content/uploads/2019/04/html-y-cssb--300x117.jpg 300w" sizes="(max-width: 640px) 100vw, 640px" /><noscript><img width="640" height="250" src="https://www.codigosinformaticos.com/wp-content/uploads/2019/04/html-y-cssb-.jpg" class="img-responsive wp-post-image" alt="HTML Y  CSS" srcset="https://www.codigosinformaticos.com/wp-content/uploads/2019/04/html-y-cssb-.jpg 640w, https://www.codigosinformaticos.com/wp-content/uploads/2019/04/html-y-cssb--300x117.jpg 300w" sizes="(max-width: 640px) 100vw, 640px" /></noscript></div>            
+            <div class="single-content"><div class="at-above-post addthis_tool" data-url="https://www.codigosinformaticos.com/html-y-css/"></div><div class="adsb30" style=" margin:15px; margin-left:0px; text-align:left"><div class = "codigosinformaticos"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- CI01 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-5571083754618380"
+     data-ad-slot="1531956401"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div></div><p>&nbsp;</p>
+<p style="text-align: justify;">Bienvenido a esta página, aquí aprenderemos a utilizar <strong>HTML y CSS</strong>, una de las componentes más importantes en el diseño web y también es muy importante que una pagina tenga diseño, con <strong>CSS</strong> puedes darle los retoques a tu página web, ya que necesita de colores, centrados de imágenes o textos, para ello vamos al tema.</p>
+<p style="text-align: justify;"><strong>CSS</strong> son las siglas de <strong>(Cascading Style Sheets)</strong> Hojas de estilo en cascada que es un lenguaje que describe la presentación de los documentos estructurados en hojas de estilo para diferenciarlos los métodos de interpretación, es decir, describe el como será mostrado un documento en la página web.</p>
+<p style="text-align: justify;">Al aprender <strong>HTML y CSS</strong> estás dando el primer paso para ser un desarrollador web o diseñador web profesional y poder crear webs o participar en cualquier proyecto web, el objetivo de este curso es que tengas nociones sobre <strong>HTML y CSS</strong> en su totalidad, con estos conocimientos podrás crear sitios web, tendrás una base sólida para aprender temas más avanzados cómo se <strong>CSS3</strong> o <strong>responsive web design</strong>, poner crear sitios web más complejos y así mismo tendrás una base en el desarrollo aplicaciones móviles híbridas para mostrar, como navegador web estaremos utilizando Google Chrome para mostrar los ejemplos de cada tema, y el editor de código escojan el mejor que les parezca.</p><div id="toc_container" class="toc_light_blue no_bullets"><p class="toc_title">indice del tema</p><ul class="toc_list"><li><a href="#Para_que_sire_CSS"><span class="toc_number toc_depth_1">1</span> ¿Para qué sire CSS?</a></li><li><a href="#Ejemplo_de_HTML_y_CSS"><span class="toc_number toc_depth_1">2</span> Ejemplo de HTML y CSS:</a></li><li><a href="#En_index"><span class="toc_number toc_depth_1">3</span> En índex:</a></li><li><a href="#En_estilo"><span class="toc_number toc_depth_1">4</span> En estilo:</a><ul><li><a href="#Quieres_aprender_mas_entonces_tambien_te_puede_interesar"><span class="toc_number toc_depth_2">4.1</span> ¿Quieres aprender mas?, entonces también te puede interesar</a></li></ul></li></ul></div><h2 style="text-align: justify;"><span id="Para_que_sire_CSS"><strong>¿Para qué sire CSS?</strong></span></h2>
+<p style="text-align: justify;">Bueno con <strong>CSS</strong> puedes hacer variedades de estilos a tu web, como por ejemplo darle color de fondo, estructurar bien tus informaciones y varias cosas, no te preocupes aprenderás más en la práctica. Cada norma consiste en un selector y una declaración, esta última va entre corchetes(&lt;&gt;) y consiste en una propiedad o atributo, y un valor separados por dos puntos. También puedes hacer <strong>CSS</strong> en el código <strong>HTML</strong>, pero para que nos hagamos la cosa más fácil aremos aparte. Estimado usuario diríjase a este link:  para información de <strong>HTML</strong> a fondo.</p><div class="adsb30" style=" margin:15px; margin-left:0px; text-align:left"><div class = "codigosinformaticos"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- CI02 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-5571083754618380"
+     data-ad-slot="8758697973"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div></div><p style="text-align: justify;">Bueno eso es toda la teoría bueno vamos al ejemplo para mayor comprensión.</p>
+<p style="text-align: justify;">Nota importante: Crear una carpeta, ya estando dentro crear “index.html” y “estilo.css”, una vez ya creado pegarle a tus documentos correspondientes para que veas en parte practico  y analiza.</p>
+<h2 style="text-align: justify;"><span id="Ejemplo_de_HTML_y_CSS">Ejemplo de <strong>HTML y CSS</strong>:</span></h2>
+<h2 style="text-align: justify;"><span id="En_index">En índex:</span></h2>
+<pre class="EnlighterJSRAW" data-enlighter-language="html">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;html y css&lt;/title&gt;
+  &lt;link rel="stylesheet" type="text/css" href="css.css"&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+  &lt;header&gt;&lt;center&gt;&lt;br&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="#"&gt;home&lt;/a&gt;
+  &lt;li&gt;&lt;a href="#"&gt;contactos&lt;/a&gt;
+  &lt;li&gt;&lt;a href="#"&gt;servicios&lt;/a&gt;
+  &lt;li&gt;&lt;a href="#"&gt;otras&lt;/a&gt;
+&lt;/ul&gt;
+&lt;/center&gt;&lt;/header&gt;&lt;br&gt;
+&lt;section id="uno"&gt;
+  &lt;center&gt;
+  &lt;table BORDER&gt;
+  &lt;tr&gt;
+    &lt;td&gt;head&lt;/td&gt; &lt;td&gt;title&lt;/td&gt; &lt;td&gt;link&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;body&lt;/td&gt; &lt;td&gt;header&lt;/td&gt; &lt;td&gt;section&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;&lt;/center&gt;
+&lt;/section border&gt;
+&lt;section id="dos"&gt;
+    
+&lt;h1&gt;hola, esta es la pagina de ejemplo de aplicacion de html y css&lt;/h1&gt;
+
+&lt;p&gt; pagina con estilos css &lt;/p&gt;
+&lt;/section&gt;
+
+
+&lt;/body&gt;
+&lt;/html&gt;
+
+</pre>
+<h2 style="text-align: justify;"><span id="En_estilo">En estilo:</span></h2>
+<pre class="EnlighterJSRAW" data-enlighter-language="css">header{
+    background: lightblue;
+    width: 100%;
+    height:10%;
+}
+header ul{
+    list-style: none;
+}
+header ul li{
+    display: inline-block;
+    margin: 0 10px;
+    padding: 4px 10px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+}
+
+#uno{
+  float: right;
+  width: 50%;
+  background-color: blue;
+  height: 500px;
+}
+#dos{
+  float:left;
+  width: 50%;
+  background-color: green;
+  height: 500px;
+}
+table {
+  background-color: white;
+  margin-top: 50px;
+}
+</pre>
+<p style="text-align: justify;">Espero que les aya sido útil el contenido de esta página, dios le bendiga.</p>
+<p><a href="https://www.codigosinformaticos.com/"><img class="lazy lazy-hidden size-full wp-image-259 aligncenter" src="//www.codigosinformaticos.com/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="https://www.codigosinformaticos.com/wp-content/uploads/2019/02/inicio.gif" alt="vamos al inicio" width="148" height="150" /><noscript><img class="size-full wp-image-259 aligncenter" src="https://www.codigosinformaticos.com/wp-content/uploads/2019/02/inicio.gif" alt="vamos al inicio" width="148" height="150" /></noscript></a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p><div class="adsb30" style=" margin:15px; margin-left:0px; text-align:left"><div class = "codigosinformaticos"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- CI03 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-5571083754618380"
+     data-ad-slot="1043859486"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div></div><style> ins.adsbygoogle { background: transparent !important; } </style><div class="wp_rp_wrap  wp_rp_vertical" id="wp_rp_first"><div class="wp_rp_content"><h3 class="related_post_title"><span id="Quieres_aprender_mas_entonces_tambien_te_puede_interesar">¿Quieres aprender mas?, entonces también te puede interesar</span></h3><ul class="related_post wp_rp"><li data-position="0" data-poid="in-2627" data-post-type="none" ><a href="https://www.codigosinformaticos.com/tecnologia-web-que-es-para-que-sirve/" class="wp_rp_thumbnail"><img class="lazy lazy-hidden" src="//www.codigosinformaticos.com/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="https://www.codigosinformaticos.com/wp-content/uploads/2021/09/ererer-150x150.jpg" alt="tecnologia web: ¿que es? ¿para que sirve?" width="150" height="150" /><noscript><img src="https://www.codigosinformaticos.com/wp-content/uploads/2021/09/ererer-150x150.jpg" alt="tecnologia web: ¿que es? ¿para que sirve?" width="150" height="150" /></noscript></a><a href="https://www.codigosinformaticos.com/tecnologia-web-que-es-para-que-sirve/" class="wp_rp_title">tecnologia web: ¿que es? ¿para que sirve?</a></li><li data-position="1" data-poid="in-1221" data-post-type="none" ><a href="https://www.codigosinformaticos.com/input-typecheckbox/" class="wp_rp_thumbnail"><img class="lazy lazy-hidden" src="//www.codigosinformaticos.com/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="https://www.codigosinformaticos.com/wp-content/uploads/2020/02/input-type-checkbox-en-html-150x150.jpg" alt="input type=&#8221;checkbox&#8221;" width="150" height="150" /><noscript><img src="https://www.codigosinformaticos.com/wp-content/uploads/2020/02/input-type-checkbox-en-html-150x150.jpg" alt="input type=&#8221;checkbox&#8221;" width="150" height="150" /></noscript></a><a href="https://www.codigosinformaticos.com/input-typecheckbox/" class="wp_rp_title">input type=&#8221;checkbox&#8221;</a></li><li data-position="2" data-poid="in-531" data-post-type="none" ><a href="https://www.codigosinformaticos.com/programacion-modular/" class="wp_rp_thumbnail"><img class="lazy lazy-hidden" src="//www.codigosinformaticos.com/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="https://www.codigosinformaticos.com/wp-content/uploads/2019/02/programacion-modular-150x150.jpg" alt="Programación modular" width="150" height="150" /><noscript><img src="https://www.codigosinformaticos.com/wp-content/uploads/2019/02/programacion-modular-150x150.jpg" alt="Programación modular" width="150" height="150" /></noscript></a><a href="https://www.codigosinformaticos.com/programacion-modular/" class="wp_rp_title">Programación modular</a></li><li data-position="3" data-poid="in-1264" data-post-type="none" ><a href="https://www.codigosinformaticos.com/input-typehidden/" class="wp_rp_thumbnail"><img class="lazy lazy-hidden" src="//www.codigosinformaticos.com/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="https://www.codigosinformaticos.com/wp-content/uploads/2020/03/input-type-hidden-en-html-150x150.jpg" alt="input type=”hidden”" width="150" height="150" /><noscript><img src="https://www.codigosinformaticos.com/wp-content/uploads/2020/03/input-type-hidden-en-html-150x150.jpg" alt="input type=”hidden”" width="150" height="150" /></noscript></a><a href="https://www.codigosinformaticos.com/input-typehidden/" class="wp_rp_title">input type=”hidden”</a></li></ul></div></div><!-- AddThis Advanced Settings above via filter on the_content --><!-- AddThis Advanced Settings below via filter on the_content --><!-- AddThis Advanced Settings generic via filter on the_content --><!-- AddThis Share Buttons above via filter on the_content --><!-- AddThis Share Buttons below via filter on the_content --><div class="at-below-post addthis_tool" data-url="https://www.codigosinformaticos.com/html-y-css/"></div><!-- AddThis Share Buttons generic via filter on the_content -->                                          </div>
+            
+                        <div class="entry-footer">
+                <div class="entry-meta">
+                    <div class="entry-author"><span>Autor: </span><span class="vcard author author_name"><span class="fn"><a href="https://www.codigosinformaticos.com/author/admin/" title="Entradas de admin" rel="author">admin</a></span></span></div>					<div class="entry-category"><span>Publicado en: </span><a href="https://www.codigosinformaticos.com/category/codigo-html/" rel="category tag">código HTML</a></div>                                    </div>
+            </div>
+                    
+        </div>
+        <!-- /Post Content -->
+        
+                <hr />
+        <div class="pagination-post">
+            <div class="previous_post"><a href="https://www.codigosinformaticos.com/codigo-de-colores-html/" rel="prev">Códigos de colores HTML</a></div>
+            <div class="next_post"><a href="https://www.codigosinformaticos.com/html-tables/" rel="next">TABLAS EN HMTL</a></div>
+        </div>
+                
+        <!-- Post Comments -->
+                <hr />
+        
+<div id="comments" class="comments">
+
+    
+	
+		<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Deja una respuesta <small><a rel="nofollow" id="cancel-comment-reply-link" href="/html-y-css/#respond" style="display:none;">Cancelar la respuesta</a></small></h3><form action="https://www.codigosinformaticos.com/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate><p class="comment-notes"><span id="email-notes">Tu dirección de correo electrónico no será publicada.</span> <span class="required-field-message" aria-hidden="true">Los campos obligatorios están marcados con <span class="required" aria-hidden="true">*</span></span></p><div class="row"><div class="col-sm-6"><div class="form-group form-group-author"><label class="form-label form-label-author">Nombre<span class="asterik">*</span></label><input type="text" class="form-control" id="author" name="author" placeholder="" value="" /></div>
+<div class="form-group form-group-email"><label class="form-label form-label-email">Dirección de correo electrónico<span class="asterik">*</span></label><input type="email" class="form-control" name="email" id="email" placeholder="" value="" /></div>
+<div class="form-group form-group-url"><label class="form-label form-label-url">Web</label><input type="text" class="form-control" name="url" id="url" placeholder="" value="" /></div></div></div>
+<div class="form-group form-group-comment"><label class="form-label form-label-comment">Comentar</label><textarea rows="5" cols="" class="form-control" id="comment" name="comment" placeholder=""></textarea></div><div class="form-group form-group-cookie"><input id="comment-cookies-consent" name="comment-cookies-consent" type="checkbox" value="yes" /><label for="comment-cookies-consent">Guardar mi nombre, correo electrónico y sitio web en este navegador para la próxima vez que haga un comentario.</label></div>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="btn btn-default" value="Publicar el comentario" /> <input type='hidden' name='comment_post_ID' value='541' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p></form>	</div><!-- #respond -->
+	
+
+</div>          
+        <!-- /Post Comments -->
+        
+    </div>
+    <!-- /Main Column -->
+    
+    
+    <!-- Sidebar -->
+<aside class="sidebar sidebar-column  col-md-4 " role="complementary" aria-label="Barra lateral principal"> 
+    <div class="sidebar-default sidebar-block sidebar-no-borders"><div id="search-4" class="default-widget widget widget_search"><form role="search" method="get" class="search-form" action="https://www.codigosinformaticos.com/" role="search">
+    <div class="form-group">
+    	<input type="search" class="search-field form-control" value="" name="s" />
+    </div>
+    <div class="form-actions">
+    	<button type="submit" class="btn btn-default">Buscar</button>
+    </div>
+</form>
+
+<span class="search-trigger"><i class="fa fa-search"></i><span class="screen-reader-text">La búsqueda está en progreso</span></span>
+</div><div id="ws_fb_like_box-3" class="default-widget widget widget_ws_fb_like_box"><h3 class="widget-title"><span>Siguenos en Facebook</span></h3><div class="fb-page ws-fb-like-box" data-href="https://www.facebook.com/108405080906179" 
+						data-tabs="timeline" 
+						data-width="380" 
+						data-height="500"
+						data-small-header="false" 
+						data-adapt-container-width="false" 
+						data-hide-cover="false"
+						data-show-facepile="true">
+						<div class="fb-xfbml-parse-ignore">
+							<blockquote cite="https://www.facebook.com/108405080906179">
+								<a href="https://www.facebook.com/108405080906179">Facebook</a>
+							</blockquote>
+						</div>
+					 </div> <div id="fb-root"></div>
+					 </div><div id="custom_html-6" class="widget_text default-widget widget widget_custom_html"><div class="textwidget custom-html-widget"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- uparrafo -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-5571083754618380"
+     data-ad-slot="6113875887"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div></div><div id="categories-5" class="default-widget widget widget_categories"><h3 class="widget-title"><span>Categorías</span></h3>
+			<ul>
+					<li class="cat-item cat-item-77"><a href="https://www.codigosinformaticos.com/category/android/">Android</a>
+</li>
+	<li class="cat-item cat-item-100"><a href="https://www.codigosinformaticos.com/category/celulares/">celulares</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="https://www.codigosinformaticos.com/category/codigo-html/">código HTML</a>
+</li>
+	<li class="cat-item cat-item-91"><a href="https://www.codigosinformaticos.com/category/computadoras/">computadoras</a>
+</li>
+	<li class="cat-item cat-item-22"><a href="https://www.codigosinformaticos.com/category/curso-por-lenguaje/">curso por lenguaje</a>
+<ul class='children'>
+	<li class="cat-item cat-item-23"><a href="https://www.codigosinformaticos.com/category/curso-por-lenguaje/c/">C#</a>
+</li>
+	<li class="cat-item cat-item-24"><a href="https://www.codigosinformaticos.com/category/curso-por-lenguaje/sql/">SQL</a>
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-106"><a href="https://www.codigosinformaticos.com/category/disco-duro/">disco duro</a>
+</li>
+	<li class="cat-item cat-item-153"><a href="https://www.codigosinformaticos.com/category/impresoras/">Impresoras</a>
+</li>
+	<li class="cat-item cat-item-59"><a href="https://www.codigosinformaticos.com/category/internet/">internet</a>
+</li>
+	<li class="cat-item cat-item-98"><a href="https://www.codigosinformaticos.com/category/memorias-ram/">Memorias RAM</a>
+</li>
+	<li class="cat-item cat-item-96"><a href="https://www.codigosinformaticos.com/category/netflix/">netflix</a>
+</li>
+	<li class="cat-item cat-item-85"><a href="https://www.codigosinformaticos.com/category/office/">Office</a>
+</li>
+	<li class="cat-item cat-item-134"><a href="https://www.codigosinformaticos.com/category/programa/">programa</a>
+</li>
+	<li class="cat-item cat-item-74"><a href="https://www.codigosinformaticos.com/category/programacion/">Programación</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="https://www.codigosinformaticos.com/category/programacion-informatica/">programación informatica</a>
+<ul class='children'>
+	<li class="cat-item cat-item-10"><a href="https://www.codigosinformaticos.com/category/programacion-informatica/tipos-de-programacion/">tipos de programación</a>
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-25"><a href="https://www.codigosinformaticos.com/category/redes-sociales/">Redes Sociales</a>
+</li>
+	<li class="cat-item cat-item-21"><a href="https://www.codigosinformaticos.com/category/seguridad-informatica/">seguridad informática</a>
+</li>
+	<li class="cat-item cat-item-26"><a href="https://www.codigosinformaticos.com/category/tecnologia/">Tecnología</a>
+</li>
+	<li class="cat-item cat-item-11"><a href="https://www.codigosinformaticos.com/category/tipos-de-codigos-informaticos/">tipos de códigos informáticos</a>
+</li>
+	<li class="cat-item cat-item-148"><a href="https://www.codigosinformaticos.com/category/wordpress/">Wordpress</a>
+</li>
+			</ul>
+
+			</div>
+		<div id="recent-posts-6" class="default-widget widget widget_recent_entries">
+		<h3 class="widget-title"><span>Entradas recientes</span></h3>
+		<ul>
+											<li>
+					<a href="https://www.codigosinformaticos.com/como-activar-windows-10-sin-clave-de-producto/">como activar Windows 10 sin clave de producto</a>
+									</li>
+											<li>
+					<a href="https://www.codigosinformaticos.com/mejor-programa-para-aumentar-el-volumen-de-mi-pc/">mejor programa para aumentar el volumen de mi pc</a>
+									</li>
+											<li>
+					<a href="https://www.codigosinformaticos.com/programa-para-bajar-videos-de-facebook-gratis/">programa para bajar videos de facebook gratis</a>
+									</li>
+											<li>
+					<a href="https://www.codigosinformaticos.com/mejor-programa-para-unir-videos/">mejor programa para unir videos</a>
+									</li>
+											<li>
+					<a href="https://www.codigosinformaticos.com/cual-es-el-mejor-programa-para-recuperar-archivos-eliminados/">cual es el mejor programa para recuperar archivos eliminados</a>
+									</li>
+					</ul>
+
+		</div><div id="calendar-3" class="default-widget widget widget_calendar"><div id="calendar_wrap" class="calendar_wrap"><table id="wp-calendar" class="wp-calendar-table">
+	<caption>marzo 2022</caption>
+	<thead>
+	<tr>
+		<th scope="col" title="lunes">L</th>
+		<th scope="col" title="martes">M</th>
+		<th scope="col" title="miércoles">X</th>
+		<th scope="col" title="jueves">J</th>
+		<th scope="col" title="viernes">V</th>
+		<th scope="col" title="sábado">S</th>
+		<th scope="col" title="domingo">D</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td colspan="1" class="pad">&nbsp;</td><td>1</td><td>2</td><td id="today">3</td><td>4</td><td>5</td><td>6</td>
+	</tr>
+	<tr>
+		<td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td>
+	</tr>
+	<tr>
+		<td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td>
+	</tr>
+	<tr>
+		<td>21</td><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td>
+	</tr>
+	<tr>
+		<td>28</td><td>29</td><td>30</td><td>31</td>
+		<td class="pad" colspan="3">&nbsp;</td>
+	</tr>
+	</tbody>
+	</table><nav aria-label="Meses anteriores y posteriores" class="wp-calendar-nav">
+		<span class="wp-calendar-nav-prev"><a href="https://www.codigosinformaticos.com/2022/02/">&laquo; Feb</a></span>
+		<span class="pad">&nbsp;</span>
+		<span class="wp-calendar-nav-next">&nbsp;</span>
+	</nav></div></div></div></aside>
+<!-- /Sidebar -->    
+</div>
+<!-- /Two Columns -->
+        
+                                          <hr />
+
+
+        
+        
+
+<!-- /Footer Widgets -->
+        
+        <!-- Footer -->
+        <div class="footer" role="contentinfo">
+            
+                        
+                                    
+            <div class="footer-copyright">
+                <ul class="credit">
+                    <li><a href="https://www.lyrathemes.com/kale/">Kale</a> de LyraThemes.com</a>.</li>
+                </ul>
+            </div>
+            
+        </div>
+        <!-- /Footer -->
+        
+    </div><!-- /Container -->
+</div><!-- /Main Wrapper -->
+
+<script type="text/javascript">window.addEventListener('DOMContentLoaded', function() {/* <![CDATA[ */ jQuery(document).ready( function() { jQuery.post( "https://www.codigosinformaticos.com/wp-admin/admin-ajax.php", { action : "entry_views", _ajax_nonce : "d85baca30b", post_id : 541 } ); } ); /* ]]> */});</script>
+ <script data-cfasync="false" type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5d2408c96788e060" defer></script>
+
+
+<script type='text/javascript' id='pt-cv-content-views-script-js-extra'>
+/* <![CDATA[ */
+var PT_CV_PUBLIC = {"_prefix":"pt-cv-","page_to_show":"5","_nonce":"64e3d85825","is_admin":"","is_mobile":"","ajaxurl":"https:\/\/www.codigosinformaticos.com\/wp-admin\/admin-ajax.php","lang":"","loading_image_src":"data:image\/gif;base64,R0lGODlhDwAPALMPAMrKygwMDJOTkz09PZWVla+vr3p6euTk5M7OzuXl5TMzMwAAAJmZmWZmZszMzP\/\/\/yH\/C05FVFNDQVBFMi4wAwEAAAAh+QQFCgAPACwAAAAADwAPAAAEQvDJaZaZOIcV8iQK8VRX4iTYoAwZ4iCYoAjZ4RxejhVNoT+mRGP4cyF4Pp0N98sBGIBMEMOotl6YZ3S61Bmbkm4mAgAh+QQFCgAPACwAAAAADQANAAAENPDJSRSZeA418itN8QiK8BiLITVsFiyBBIoYqnoewAD4xPw9iY4XLGYSjkQR4UAUD45DLwIAIfkEBQoADwAsAAAAAA8ACQAABC\/wyVlamTi3nSdgwFNdhEJgTJoNyoB9ISYoQmdjiZPcj7EYCAeCF1gEDo4Dz2eIAAAh+QQFCgAPACwCAAAADQANAAAEM\/DJBxiYeLKdX3IJZT1FU0iIg2RNKx3OkZVnZ98ToRD4MyiDnkAh6BkNC0MvsAj0kMpHBAAh+QQFCgAPACwGAAAACQAPAAAEMDC59KpFDll73HkAA2wVY5KgiK5b0RRoI6MuzG6EQqCDMlSGheEhUAgqgUUAFRySIgAh+QQFCgAPACwCAAIADQANAAAEM\/DJKZNLND\/kkKaHc3xk+QAMYDKsiaqmZCxGVjSFFCxB1vwy2oOgIDxuucxAMTAJFAJNBAAh+QQFCgAPACwAAAYADwAJAAAEMNAs86q1yaWwwv2Ig0jUZx3OYa4XoRAfwADXoAwfo1+CIjyFRuEho60aSNYlOPxEAAAh+QQFCgAPACwAAAIADQANAAAENPA9s4y8+IUVcqaWJ4qEQozSoAzoIyhCK2NFU2SJk0hNnyEOhKR2AzAAj4Pj4GE4W0bkJQIAOw=="};
+var PT_CV_PAGINATION = {"first":"\u00ab","prev":"\u2039","next":"\u203a","last":"\u00bb","goto_first":"Ir a la primera p\u00e1gina","goto_prev":"Ir a la p\u00e1gina anterior","goto_next":"Ir a la p\u00e1gina siguiente","goto_last":"Ir a la \u00faltima p\u00e1gina","current_page":"La p\u00e1gina actual es","goto_page":"Ir a la p\u00e1gina"};
+/* ]]> */
+</script>
+
+
+
+
+<script type='text/javascript' id='rocket-browser-checker-js-after'>
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+</script>
+<script type='text/javascript' id='rocket-preload-links-js-extra'>
+/* <![CDATA[ */
+var RocketPreloadLinksConfig = {"excludeUris":"\/(.+\/)?feed\/?.+\/?|\/(?:.+\/)?embed\/|\/(index\\.php\/)?wp\\-json(\/.*|$)|\/wp-admin\/|\/logout\/|\/wp-login.php","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|php|pdf|html|htm","siteUrl":"https:\/\/www.codigosinformaticos.com","onHoverDelay":"100","rateThrottle":"3"};
+/* ]]> */
+</script>
+<script type='text/javascript' id='rocket-preload-links-js-after'>
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+</script>
+
+
+
+
+
+
+
+
+
+
+<script type='text/javascript' id='wp-util-js-extra'>
+/* <![CDATA[ */
+var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
+/* ]]> */
+</script>
+
+
+
+
+
+
+
+<script>window.lazyLoadOptions={elements_selector:"img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}};window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async src="https://www.codigosinformaticos.com/wp-content/plugins/wp-rocket/assets/js/lazyload/16.1/lazyload.min.js"></script><script src="https://www.codigosinformaticos.com/wp-content/cache/min/1/db0cca9af2d49de2335127f0e4123361.js" data-minify="1" defer></script><script type="text/javascript">window.addEventListener('DOMContentLoaded', function() {
+jQuery(document).ready(function($) {
+	$.post('https://www.codigosinformaticos.com/wp-admin/admin-ajax.php', {action: 'wpt_view_count', id: '541'});
+});
+});</script><script data-cfasync="false" type="text/javascript">if (window.addthis_product === undefined) { window.addthis_product = "wpp"; } if (window.wp_product_version === undefined) { window.wp_product_version = "wpp-6.2.6"; } if (window.addthis_share === undefined) { window.addthis_share = {}; } if (window.addthis_config === undefined) { window.addthis_config = {"data_track_clickback":true,"ui_atversion":"300"}; } if (window.addthis_plugin_info === undefined) { window.addthis_plugin_info = {"info_status":"enabled","cms_name":"WordPress","plugin_name":"Share Buttons by AddThis","plugin_version":"6.2.6","plugin_mode":"AddThis","anonymous_profile_id":"wp-8c0c9053bee27361b4b4d07032346631","page_info":{"template":"posts","post_type":""},"sharing_enabled_on_post_via_metabox":false}; } 
+                    (function() {
+                      var first_load_interval_id = setInterval(function () {
+                        if (typeof window.addthis !== 'undefined') {
+                          window.clearInterval(first_load_interval_id);
+                          if (typeof window.addthis_layers !== 'undefined' && Object.getOwnPropertyNames(window.addthis_layers).length > 0) {
+                            window.addthis.layers(window.addthis_layers);
+                          }
+                          if (Array.isArray(window.addthis_layers_tools)) {
+                            for (i = 0; i < window.addthis_layers_tools.length; i++) {
+                              window.addthis.layers(window.addthis_layers_tools[i]);
+                            }
+                          }
+                        }
+                     },1000)
+                    }());
+                </script></body>
+</html>
+
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1646321758 -->
